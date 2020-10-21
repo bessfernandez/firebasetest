@@ -18,7 +18,7 @@ const Index = () => {
   if (!user) {
     return (
       <>
-        <p>Hi there!</p>
+        <p>Hi there coffee friend!</p>
         <p>
           You are not signed in.{' '}
           <Link href={'/auth'}>
@@ -32,7 +32,7 @@ const Index = () => {
   return (
     <div>
       <div>
-        <p>You're signed in. Email: {user.email}</p>
+        <p>You're signed in {user.email}. Email: {user.email}</p>
         <p
           style={{
             display: 'inline-block',
